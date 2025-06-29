@@ -1,0 +1,121 @@
+ body {
+   font-family: Arial, sans-serif;
+   background-color: #f8f9fa;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .login-container {
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+ }
+
+ .login-card {
+   width: 100%;
+   max-width: 400px;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   background-color: white;
+ }
+
+ .login-title {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+ }
+
+ .form-label {
+   font-weight: 600;
+   margin-bottom: 8px;
+ }
+
+ .form-control {
+   margin-bottom: 20px;
+   padding: 10px 15px;
+ }
+
+ .login-btn {
+    width: 100%;
+    padding: 0.5rem;
+    font-weight: 500;
+    background-color: #2c3e50;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+ }
+
+ .login-btn:hover {
+    background-color: #1a252f;
+}
+
+ .divider {
+   border: 0;
+   height: 1px;
+   background-color: #dee2e6;
+   margin: 25px 0;
+ }
+
+ /* Add this to your existing CSS file */
+
+/* Container for the "Don't have an account?" message */
+.account-prompt {
+    text-align: center;
+    margin-top: 2rem;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+/* Style for the Sign Up link */
+.signup-link {
+    display: block;
+    text-align: center;
+    color: #2c3e50;
+    font-weight: 50;
+    font-size: 0.9rem;
+    text-decoration: none !important; /* Removes underline */
+    margin-top: 0.1rem;
+    margin-bottom: 2rem;
+    transition: color 0.3s ease;
+}
+
+.signup-link:hover {
+    color: #3498db;
+}
+
+ .text-danger { color: red; }
+        .text-success { color: green; }
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 80vh;
+        }
+        .login-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        .login-title {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        .account-prompt {
+            text-align: center;
+            margin-top: 1rem;
+        }
+        .signup-link {
+            display: block;
+            text-align: center;
+            margin-top: 0.5rem;
+        }
